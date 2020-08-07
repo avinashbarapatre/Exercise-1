@@ -1,0 +1,113 @@
+    .wrapper{
+        width: 960px;
+        height: 650px;
+        background-color: #EFEFEF;
+        margin: 0 auto;
+    }
+    .title-sf{
+        padding: 1% 1% 1% 20%;
+        font-size: 18px;
+    }
+    .box-top-line{
+        height: 4px;
+        background-color: #BFBFBF;
+    }
+    .btn-class{
+        background-color: #72C3DC;
+        border-radius: 5px;
+        border: 0px solid;
+        width: 200px;
+        padding: 10px;
+        box-shadow: 0px 3px slategrey;
+        margin-bottom: 10px;
+    }
+
+    .button-section{
+        width: 240px;
+        float: right;
+        margin-bottom: 10px;
+        margin-top: 5%;
+    }
+
+    .box{
+        width: 700px;
+        float: left;
+    }
+
+    .number{
+        float: left;
+        font-size: 6em;
+        color: #FFFFFF;
+        padding: 5% 13%;
+    }
+
+    .box-1{
+        background-color: #6F98A8;
+    }
+
+    .box-2, .box-4{
+        background-color: #2B8EAD;
+    }
+
+    .box-6, .box-7{
+        background-color: #BFBFBF;
+    }
+
+    .box-8{
+        background-color: #6F98A8;
+    }
+
+    .box-3, .box-5, .box-9{
+        background-color: #2F454E;
+    }
+
+    @media screen and (max-width: 1000px) and (min-width: 360px){
+        .wrapper {
+        width: 100%;
+        background: none;
+        }
+        .number {
+                color: #000000;
+                width: 98%;
+                background-color: #EFEFEF;            
+                font-size: 2em;
+                padding: 0;
+                margin-bottom: 5px;
+                border-radius: 5px;
+                text-align: center;
+        }
+        .box {
+            width: 100%;
+            float: left;
+        }
+        .button-section {
+            width: 100%;
+            float: right;
+            margin-bottom: 10px;
+            margin-top: 5%;
+            text-align: center;    
+        }
+        .box-1{        
+        border-left: 10px solid #6F98A8;
+    }
+
+    .box-2, .box-4{
+    
+        border-left: 10px solid #2B8EAD;
+    }
+
+    .box-6, .box-7{
+    
+        border-left: 10px solid #BFBFBF;
+    }
+
+    .box-8{
+    
+        border-left: 10px solid #6F98A8;
+    }
+
+    .box-3, .box-5, .box-9{
+        
+        border-left: 10px solid #2F454E;
+    }
+    }
